@@ -8,10 +8,11 @@ public class Main {
         int d;
         d = sc.nextInt();
         if
-        (d>=0)
-            d=d+1;
+        (d >= 0)
+            System.out.println(d + 1);
         else
-            d=d;
-        System.out.println(d);
+            System.out.println(d);
+
+
     }
 }
