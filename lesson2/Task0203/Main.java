@@ -1,0 +1,17 @@
+package Task0203;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int d;
+        d = sc.nextInt();
+        if
+        (d>=0)
+            d=d+1;
+        else
+            d=d;
+        System.out.println(d);
+    }
+}
