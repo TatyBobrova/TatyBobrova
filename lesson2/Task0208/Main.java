@@ -8,11 +8,18 @@ public class Main {
         int sumP = 0;
         int sumN = 0;
         int count = 0;
+        int max=arr[0];
 
-        OptionalInt max = Arrays.stream(arr).max();
-        System.out.println("Максимальное число "+max.getAsInt());
+       /*OptionalInt max = Arrays.stream(arr).max();
+        System.out.println("Максимальное число "+max.getAsInt());*/
 
-            for (int i: arr)
+        for (int i: arr)
+           if (i>max)
+               max= i;
+             System.out.println("Максимальное число "+max);
+
+
+        for (int i: arr)
            if (i >0)
             sumP=sumP+i;
         System.out.println("Сумма положительных элементов "+sumP);
