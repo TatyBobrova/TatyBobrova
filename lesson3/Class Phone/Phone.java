@@ -1,8 +1,8 @@
 //создать класс
 public class Phone {
-    private String number;
-    private String model;
-    private int weight;
+    String number;
+    String model;
+    int weight;
 
     //добавлены методы
 //имя звонящего
@@ -11,9 +11,9 @@ public class Phone {
     }
 
     //добавить перегруженный метод recivecall
-    public void receiveCall(String name, String number) {
+   /* public void receiveCall(String name, String number) {
         System.out.println("Вам звонит" + name + " " + number);
-    }
+    }*/
 
     //вернуть номер телефона
     public String getNumber() {
@@ -22,9 +22,9 @@ public class Phone {
 
     //Создать метод sendMessage
     //1 вариант
-    public void sendMessage(String number) {
+    /*public void sendMessage(String number) {
         System.out.println("Сообщение отпралено на номер " + number);
-    }
+    }*/
 
     //2 вариант
     public void sendMessage(String... numbers) {
@@ -51,10 +51,10 @@ public class Phone {
     }
 
     //вызвать из конструктра с тремя параметрами конструктор с двумя
-    public Phone(String number, String model, int weight) {
+   /* public Phone(String number, String model, int weight) {
         this(number, model);
         this.weight = weight;
-    }
+    }*/
 }
 
 
