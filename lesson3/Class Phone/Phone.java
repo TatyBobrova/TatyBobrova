@@ -11,9 +11,9 @@ public class Phone {
     }
 
     //добавить перегруженный метод recivecall
-   /* public void receiveCall(String name, String number) {
+   public void receiveCall(String name, String number) {
         System.out.println("Вам звонит" + name + " " + number);
-    }*/
+    }
 
     //вернуть номер телефона
     public String getNumber() {

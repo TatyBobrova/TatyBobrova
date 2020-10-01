@@ -18,5 +18,7 @@ Phone ph1=new Phone();
         ph1.receiveCall(name);
         ph1.sendMessage("8-888-111-44-44");
 
+        ph1.receiveCall(name, ph1.number ="888");
+
 }
 }
